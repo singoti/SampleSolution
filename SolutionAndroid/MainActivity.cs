@@ -29,8 +29,8 @@ namespace SolutionAndroid
 
             button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
 
-            MobileCenter.Start("653c1143-9e4f-44a4-9f19-47b910647bfb",
-                    typeof(Analytics), typeof(Crashes));
+            //MobileCenter.Start("653c1143-9e4f-44a4-9f19-47b910647bfb",
+            //        typeof(Analytics), typeof(Crashes));
         }
     }
 }
