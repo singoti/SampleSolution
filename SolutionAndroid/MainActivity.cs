@@ -26,7 +26,7 @@ namespace SolutionAndroid
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.MyButton);
-
+            //sample comment
             button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
 
             MobileCenter.Start("de51723b-fd84-471e-97f8-49ae794f9502",
